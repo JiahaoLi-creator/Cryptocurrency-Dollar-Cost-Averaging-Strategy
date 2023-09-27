@@ -1,6 +1,3 @@
-"""
-2023 TTG
-"""
 import ccxt
 from tabulate import tabulate
 import pandas as pd
@@ -29,7 +26,7 @@ def send_wechat_work_msg(content):
     :param content:    发送的消息内容
     """
     try:
-        # 构建企业微信机器人的消息体。参考文档：https://developer.work.weixin.qq.com/document/path/91770
+        # 构建企业微信机器人的消息体。
         data = {
             "msgtype": "text",
             "text": {

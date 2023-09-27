@@ -1,5 +1,5 @@
 import ccxt
-from BL定投脚本.program.functions import *
+from program.functions import *
 from view_position import run_check
 
 exchange = ccxt.binance(api_config)
